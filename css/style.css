@@ -705,16 +705,12 @@
 
 /* Banner */
 
-	#banner {
-		background-image: url("../images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
-		height: 28em;
+	.banner {
 		text-align: center;
 		position: relative;
 	}
 
-		#banner header {
+		.banner header {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -725,26 +721,26 @@
 			padding: 1.5em 0;
 		}
 
-			#banner header h2 {
+			.banner header h2 {
 				display: inline-block;
 				margin: 0;
 				font-size: 1.25em;
 				vertical-align: middle;
 			}
 
-				#banner header h2 em {
+				.banner header h2 em {
 					opacity: 0.75;
 				}
 
-				#banner header h2 a {
+				.banner header h2 a {
 					border-bottom-color: rgba(255, 255, 255, 0.5);
 				}
 
-					#banner header h2 a:hover {
+					.banner header h2 a:hover {
 						border-bottom-color: transparent;
 					}
 
-			#banner header .button {
+			.banner header .button {
 				vertical-align: middle;
 				margin-left: 1em;
 			}
@@ -847,6 +843,12 @@
 
 	/*Personnal adds*/
 
+	#bannerhome {
+		background-image: url("../images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		height: 480px;
+	}
 
 	.galaxy {
 		height: 250px;
