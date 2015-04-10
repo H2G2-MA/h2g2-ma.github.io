@@ -843,3 +843,37 @@
 			text-align: center;
 			font-size: 0.9em;
 		}
+
+
+	/*Personnal adds*/
+
+
+	.galaxy {
+		height: 250px;
+		position: relative;
+		color: #FFFFFF;
+		text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black;
+
+	}
+
+	.galaxy p {
+		color: #FFFFFF;
+	}
+
+	#galaxyA {
+		background-image: url("../images/galaxyA.jpg");
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#galaxyB {
+		background-image: url("../images/galaxyB.jpg");
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#galaxyC {
+		background-image: url("../images/galaxyC.jpg");
+		background-position: center center;
+		background-size: cover;
+	}
